@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Simple Calculation App | By Faizanscommunit</title>
+</head>
+<body>
+    <div class="container">
+        <div class="input-one">
+            <span class="input-label">Enter 1st Value&nbsp;&nbsp;</span>
+            <input class="form-control" type="number" name="first" id="first"><br>
+        </div>
+        <div class="input-two">
+            <span class="input-label">Enter 2nd Value</span>
+            <input class="form-control" type="number" name="second" id="second"><br><br>
+        </div>
+        <div class="cont">
+            <select class="select" name="operators" id="operators">
+                <option class="opt" value="+">Add (+)</option>
+                <option class="opt" value="-">Subtract (-)</option>
+                <option class="opt" value="*">Multiply (*)</option>
+                <option class="opt" value="/">Divide (/)</option>
+            </select>
+            <button class="btn" onclick="myFunction()">Calculate</button>
+        </div><br>
+        <div class="answer-div">
+            <a class="answer">Answer : <span id="answer">0</span></a>
+        </div>
+    </div>
+</body>
+</html>
