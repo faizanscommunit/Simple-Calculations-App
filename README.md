@@ -5,7 +5,7 @@
 - Easy to Use
 
 # Preview
-![Preview](https://github.com/faizanscommunit/JS-Round-Off-App/blob/main/preview.png?raw=true)
+![Preview](https://github.com/faizanscommunit/Simple-Calculations-App/blob/main/Simple%20Calculations%20App.png?raw=true)
 ------------
 Website: https://faizanscommunit.pythonanywhere.com/
 
